@@ -1,24 +1,27 @@
-# Phani Kaushik Resume Website
+# Phani Kaushik EA-style resume website
 
-This is a static personal website ready for GitHub upload and Vercel deployment.
+GitHub-ready and Vercel-ready React project.
 
-## Files
-- `index.html`
-- `styles.css`
-- `script.js`
-- `vercel.json`
+## Run locally
+```bash
+npm install
+npm run dev
+```
 
-## Upload to GitHub website repo
-1. Create or open your GitHub repo.
-2. Upload all files from this folder to the root of the repo.
-3. Commit the changes.
+## Build
+```bash
+npm run build
+```
 
-## Deploy on Vercel
-1. Open Vercel dashboard.
-2. Click **Add New -> Project**.
-3. Import your GitHub repo.
-4. Use a project name like `phani-kaushik-site`.
-5. Click **Deploy**.
+## Deploy to Vercel
+1. Upload this folder to a GitHub repo.
+2. Import that repo in Vercel.
+3. Vercel should auto-detect it as a Vite project.
+4. Click Deploy.
 
-## Local preview
-Open `index.html` in a browser.
+## Main files
+- src/App.jsx
+- src/main.jsx
+- src/index.css
+- vite.config.js
+- package.json
